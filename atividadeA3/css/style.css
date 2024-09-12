@@ -2,16 +2,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
    background-color: rgba(28, 70, 87, 0.651);
    margin: 0;
+   padding: 0;
 }
 
 .Conteiner{
-
+    display: flex; /*torna a div flexivel*/
+    flex-wrap: wrap; /*"protege" as div's entre elas*/
+    justify-content: space-around; /*espaço entre as divs*/
+    margin-top: 20px; /*margem de distancia das divs*/
 }
 
 .profissões{
+    margin: 10px; /*margem entre as divs */
     background-color: aqua;
+    border: 5px double rgb(42, 29, 73); /*cria bordar*/ 
+    border-radius: 50px; /*arredonda a borda */
+    padding: 10px; /*espaço entre inicio e linha*/
+    box-shadow: 5px, 5px, 20px rgb(85, 8, 8); /*cria sombra envolta da div, MAS TA DANDO ERRADO!!!!*/
+    width: 25%; /*tamanho de cada div*/
 }
 
 h1{
-
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
+
+
